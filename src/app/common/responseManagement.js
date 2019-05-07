@@ -8,7 +8,7 @@ responses.customResponse = function (response, message) {
 
 responses.customErrorResponse = function (response) {
   return response.status(202).send({
-    message: 'El usuario no supera el máximo de 3 búsquedas'
+    message: 'No se encontraron usuarios que superara el máximo de 3 búsquedas'
   });
 };
 
